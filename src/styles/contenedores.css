@@ -1,0 +1,264 @@
+/* Header */
+/* Contenedores Header */
+header{
+	background-color: #3399DD;
+	display: flex;
+	border-radius: 0px 0px 75px 75px;
+	min-height: 65px;
+}
+/* Dispocision header */ 
+#nav1{
+	width: 10%;
+}
+#nav2{
+	width: 55%;
+	display: flex;
+}
+#nav2>ul{
+	height: 100%;
+	list-style: none;
+}
+#nav2>ul>li{
+	padding: 20px;
+	display: inline-block;
+}
+#nav2>ul>li>a{
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	color: #EEE;
+	transition: 0.3s ease;
+}
+#nav2>ul>li>a:hover{
+	color: #444;
+	font-size: 1.25em;
+	text-decoration: underline;
+}
+#nav3{
+	width: 30%;
+	display: flex;
+}
+#nav3>div{
+	display: flex;
+	align-items: center;
+}
+#nav3>div>label{
+	font-size: 15px;
+	padding: 10px;
+}
+
+
+/* Contenedor de Pagina */
+.principal{
+	background-color: #DDD;
+	border-radius: 15px;
+	margin: 2.5%;
+	padding: 2.5%;
+}
+#tituloInicio{
+	color: #333;
+	font-size: 4em;
+	font-weight: bold;
+	text-align: center;
+	transform: translateY(-45vh);
+}
+.tituloDescripcion{
+	font-style: oblique;
+	font-size: 1.5em;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+/* Disposicion Footer */
+footer{
+	background-color: #3399DD;
+	display: flex;
+	border-radius: 75px 75px 0px 0px;
+	min-height: 65px;
+}
+footer>div{
+	margin: 50px 30px;
+	width: calc(100%/3);
+}
+.infoFooter{
+	padding: 5px; 
+	font-size: 15px;
+	text-align: center;
+}
+
+
+/* Separadores hr */
+.separadores{
+	border: 1px solid #3399DD;
+}
+
+
+
+
+
+/* Categoria */
+.celdaCat{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	gap: 10px;
+	padding: 5%;
+}
+.itemCat{
+	padding: 5px;
+	text-align: center;
+	background-color: #3399DD;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	border: none;
+	transition: 0.3s ease;
+}
+.itemCat:hover{
+	filter: invert(100%);
+}
+
+
+
+/* Adquicisiones */
+.adIndex{
+	padding: 2.5%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 10px;
+	font-size: 15px;
+}
+.adIndex>div{
+	padding: 20px;
+	background-color: #3399DD;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: 0.3s ease;
+}
+.adIndex>div:hover{
+	filter: invert(100%);
+}
+.adIndex ul{
+	list-style: none;
+	margin: 0;
+  padding: 0;
+}
+
+
+
+/* Inicio de sesion */
+#inicioLogin>table, #inicioRegistro>table{
+	margin: 0 auto;
+	padding: 5%;
+	background-color: #CCC;
+	border-radius: 20px;
+}
+table{
+	border-spacing: 15px;
+}
+table td{
+	text-align: center;
+}
+.tituloLogin{
+	font-size: 1.5em;
+}
+.infoLogin{
+	font-size: 0.8em;
+}
+#inicioLogin input, #inicioRegistro input{
+	width: 90%;
+	padding-left: 20px;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+}
+
+
+
+/* Consultas */
+#consultas{
+	padding: 5%;
+}
+#consultas>p{
+	text-align: center;
+}
+#consultas>div>input{
+	width: 90%;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 20px;
+	border: none;
+	padding-left: 40px;
+}
+#consultas>div>input::placeholder{
+	color: #BBB;
+}
+
+#resConsultas{
+	padding: 20px;
+	display: flex;
+}
+#filtros{
+	width: 20%;
+}
+#resultados{
+	padding: 20px;
+	width: 80%;
+}
+#resultados>div{
+	margin: 10px;
+	padding: 20px;
+	background-color: #3399DD;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: 0.3s ease;
+}
+#resultados ul{
+	list-style: none;
+}
+#resLibro{
+	display: grid;
+	grid-template-columns: 1fr 4fr 2fr;
+	gap: 10px;
+}
+#resLibro img,#resLibro ul, #resLibro div{
+	display: inline-block;
+}
+#resLibro li{
+	padding-top: 5px; 
+}
+.infoLibro{
+	color: black;
+	font-size: 15px;
+}
+
+/* Categorias */
+.divCategorias{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
+	padding: 2.5%;
+}
+.divCategorias>div{
+	text-align: justify;
+	border: 3px solid #3399DD;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+
+/* Mision */
+#mision{
+	padding: 2.5%;
+}
+#mision>p{
+	padding: 15px;
+	text-align: center;
+}

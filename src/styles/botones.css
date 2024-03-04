@@ -1,0 +1,52 @@
+/* Boton Primario */
+.primario, .secundario, .terciario{
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	align-items: center;
+	font-family: Verdana;
+	border-radius: 10px;
+	border: none;
+	font-size: 15px;
+	min-width: 100px;
+	height: 40px;
+	transition: 0.5s ease;
+}
+.primario{
+	background-color: #DD9933;
+	color: #EEE;
+}
+.primario:hover{
+	background-color: #444;
+	color: #DD9933;
+}
+.primario:active{
+	filter: invert(100%);
+}
+
+/* Boton Secundario */
+.secundario{
+	background-color: #229977;
+	color: #EEE;
+}
+.secundario:hover{
+	background-color: #AAA;
+	color: black;
+}
+.secundario:active{
+	filter: invert(100%);
+}
+
+/* Boton Terciario */
+.terciario{
+	background-color: #883333;
+	color: #EEE;
+}
+.terciario:hover{
+	background-color: #DD9933;
+	color: black;
+}
+.terciario:active{
+	filter: invert(100%);
+}

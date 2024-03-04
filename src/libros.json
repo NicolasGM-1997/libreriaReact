@@ -1,0 +1,44 @@
+[
+	{
+	  "titulo": "Cien años de soledad",
+	  "autor": "Gabriel García Márquez",
+	  "ISBN": "978-84-376-0494-7",
+	  "numeroRegistro": "L001",
+	  "disponibilidad": true
+	},
+	{
+	  "titulo": "Matar a un Ruiseñor",
+	  "autor": "Harper Lee",
+	  "ISBN": "978-0-06-112008-4",
+	  "numeroRegistro": "L002",
+	  "disponibilidad": true
+	},
+	{
+	  "titulo": "El arte de la guerra",
+	  "autor": "Sun Tzu",
+	  "ISBN": "978-84-608-0357-3",
+	  "numeroRegistro": "L003",
+	  "disponibilidad": false
+	},
+	{
+	  "titulo": "1984",
+	  "autor": "George Orwell",
+	  "ISBN": "978-84-376-0494-7",
+	  "numeroRegistro": "L004",
+	  "disponibilidad": true
+	},
+	{
+	  "titulo": "Harry Potter",
+	  "autor": "J.K. Rowling",
+	  "ISBN": "978-0-590-35340-3",
+	  "numeroRegistro": "L005",
+	  "disponibilidad": true
+	},
+	{
+	  "titulo": "Los pilares de la Tierra",
+	  "autor": "Ken Follett",
+	  "ISBN": "978-84-204-6761-2",
+	  "numeroRegistro": "L006",
+	  "disponibilidad": true
+	}
+]

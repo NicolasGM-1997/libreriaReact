@@ -1,0 +1,11 @@
+@import url('/src/styles/contenedores.css');
+@import url('/src/styles/botones.css');
+@import url('/src/styles/imagenes.css');
+
+*{
+	margin: 0px;
+}
+body{
+	background-color: #EEE;
+	font-family: Verdana;
+}
